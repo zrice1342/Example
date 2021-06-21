@@ -1,19 +1,18 @@
-body{
-    background-color: seagreen;
-}
-h1{
-    background-color: royalblue;
-    color: salmon;
+.MyCloud{
+    text-align: left;
+    background-color: black;
+    color: cyan;
 }
 
-.green{
-    background-color: seashell;
+.two{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
 }
+.three{
+    text-align: right;
+    text-decoration: underline;
+    background-color: darkcyan;
+    color: black;
 
-.red{
-    background-color: skyblue;
-}
-
-#blue{
-    color: slategray;
 }
