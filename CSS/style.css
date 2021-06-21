@@ -1,0 +1,19 @@
+body{
+    background-color: seagreen;
+}
+h1{
+    background-color: royalblue;
+    color: salmon;
+}
+
+.green{
+    background-color: seashell;
+}
+
+.red{
+    background-color: skyblue;
+}
+
+#blue{
+    color: slategray;
+}
