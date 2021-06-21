@@ -3,6 +3,9 @@
     background-color: black;
     color: cyan;
 }
+#yee{
+    color: white;
+}
 
 .two{
     text-align: center;
@@ -12,7 +15,8 @@
 .three{
     text-align: right;
     text-decoration: underline;
+    font-style: italic;
     background-color: darkcyan;
     color: black;
 
-}
+}ß
