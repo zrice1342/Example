@@ -1,0 +1,11 @@
+.b{
+    height: 300px;
+    width: 500px;
+    background-color: seashell;
+}
+.c{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+}
