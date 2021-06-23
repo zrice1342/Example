@@ -1,0 +1,98 @@
+.container{
+    background-color: seashell;
+    width: 100%;
+    display: inline-flex;
+    height: 1080px;
+}
+
+.card{
+    height: 25%;
+    width: 50%;
+    background-color: white;
+    margin: 25%;
+}
+
+.topbar{
+    margin: 0;
+    padding: 0;
+    height: 30%;
+    width: 100%;
+    background-color: lightblue;
+}
+.userimg{
+    height: 69%;
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.name{
+    margin-top: 1%;
+}
+h1{
+    margin-bottom: 0%;
+}
+.userimg,.topbar{
+    display: inline-block;
+}
+
+h2{
+    margin-top: 17%;
+    margin-left: 2%;
+    font-size: 20px;
+}
+
+.location{
+    margin-top: -15%;
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+
+.locationimg{
+    width: 6%;
+    margin-top: 10%;
+    margin-right: -5%;
+    margin-bottom: 0px;
+
+}
+
+.locationimg,.location,h2{
+    margin-left: 3%;
+    display: inline-flex;
+    align-items: center;
+}
+.name{
+    margin-top: -30px;
+    font-size: 80%;
+    margin-left: 5%;
+}
+
+.userimg,.name{
+    display: flexbox;
+}
+.about{
+    display: inline-flex;
+    margin-top: -10%;
+    margin-left: 5%;
+}
+
+.location,.about{
+    display: flex;
+}
+.div1 p{
+    display: block;
+    margin-bottom: -3%;
+    font-size: 17px;
+    margin-right: 5%;
+}
+
+.edit img{
+    width: 5%;
+}
+
+.edit p{
+    margin-top: 0%;
+}
+
+.edit{
+    display: inline;
+}
