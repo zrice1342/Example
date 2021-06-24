@@ -36,7 +36,7 @@ h1{
 }
 
 h2{
-    margin-top: 17%;
+    margin-top: 33%;
     margin-left: 2%;
     font-size: 20px;
 }
@@ -48,7 +48,7 @@ h2{
 }
 
 .locationimg{
-    width: 6%;
+    width: 23%;
     margin-top: 10%;
     margin-right: -5%;
     margin-bottom: 0px;
@@ -73,26 +73,34 @@ h2{
     display: inline-flex;
     margin-top: -10%;
     margin-left: 5%;
+    align-content: center;
 }
 
 .location,.about{
-    display: flex;
+    display: inline-flex;
 }
 .div1 p{
+    margin-top: 0%;
     display: block;
     margin-bottom: -3%;
     font-size: 17px;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 
+.div2 p{
+    margin-top: 3%;
+    display: block;
+    margin-bottom: -3%;
+    font-size: 17px;
+    margin-left: 5%;
+}
 .edit img{
     width: 5%;
+    margin-left: 65%;
+    margin-top: 10%;
 }
 
 .edit p{
     margin-top: 0%;
-}
-
-.edit{
-    display: inline;
+    margin-left: 70%;
 }
