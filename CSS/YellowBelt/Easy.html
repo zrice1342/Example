@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easybay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div id="leftnav">
+        <img id="logo" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/leaf.png">
+        <h1 id="logoname">EasyBay</h1>
+        </div>
+        <div id="searchbar" >
+            <p>Search for anything</p>
+            <img id="mag" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/search-dark.png" height="20px">
+        </div>
+        <div id="rightnav">
+        <button id="signin">Sign in</button>
+        <img onclick="alert('Cart is empty')" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/cart-dark.png">
+        </div>
+    </nav>
+    <div id="container">
+        <div id="quicksearch">
+        <div id="plantnames">
+            <h3>Aeonium</h3>
+            <h3>Andormischus</h3>
+            <h3>Agave</h3>
+            <h3>Aloe</h3>
+            <h3>Anacamperos</h3>
+            <h3>Aristole</h3>
+            <h3>More...</h3>
+        </div>
+            <div id="bar"></div>
+        </div>
+        <div id="highlights">
+            <h1 id="heading">Your Source for Serious Succulent Specialties</h1>
+            <div id="lefthighlight">
+                <div id="words">
+                <h2>Discover succ-<br>
+                ulent varieties<br>
+                one pot or rock<br>
+                at a time!<br></h2><br>
+                </div>
+                <div id="discover">
+                    <h2 id="dtext">Discover</h2>
+                    <img id="dimg" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/arrow-light.png" alt="">
+                </div>
+            </div>
+            <div id="imghigh"><img src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/succulents-1.jpg" onmouseover="this.src='/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/succulents-2.jpg' " onmouseout= "this.src='/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/succulents-1.jpg'" style="width:500px;height:475px;"></div>
+            <div id="righthighlight">
+                <img src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/aloe-m.jpg" style="width: 400px; height: 300px;">
+                    <div id="soothing">
+                        <div id="wordstwo">
+                    <h2>Soothing Aloe</h2>
+                    <img src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/arrow-light.png">
+                    </div>
+                    </div>
+            </div>
+        </div>
+        <div id="sales">
+            <div id="plantbox">
+                <div id="plantimg"><img id="plantpic" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/aeonium-s.jpg" style='height: 100%; width: 100%; object-fit:'></div>
+                <h3>Aeonium</h3>
+            </div>
+            <div id="plantbox">
+                <div id="plantimg"><img id="plantpic" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/aloe-s.jpg" style='height: 100%; width: 100%; object-fit:'></div>
+                <h3>Aloe</h3>
+            </div>
+            <div id="plantbox">
+                <div id="plantimg"><img id="plantpic" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/cactus-s.jpg"style='height: 100%; width: 100%; object-fit:'></div>
+                <h3>Cactus</h3>
+            </div>
+            <div id="plantbox">
+                <div id="plantimg"><img id="plantpic" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/echeveria-s.jpg"style='height: 100%; width: 100%; object-fit:' ></div>
+                <h3>Echeveria</h3>
+            </div>
+            <div id="plantbox">
+                <div id="plantimg"><img id="plantpic" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/sedum-s.jpg" style='height: 100%; width: 100%; object-fit:'"></div>
+                <h3>sedum</h3>
+            </div>
+            <div id="plantbox">
+                <div id="plantimg"><img id="plantpic" src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/sempervivum-s.jpg" style='height: 100%; width: 100%; object-fit:'"></div>
+                <h3>sempvivum</h3>
+            </div>
+        </div>
+    </div>
+    <div id="cookies">
+        <img src="/Users/zackrice/Desktop/CodingDojo/Web Fundemental/CSS/YellowBelt/images/assets/alert-dark.png">
+        <p>This site makes use of third party cookies,by clicking "I accept" <br> you agree to the terms outlined in our <a href=""> cookie policy</a></p>
+        <button onclick="hide()" id="iagree">I Accept</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

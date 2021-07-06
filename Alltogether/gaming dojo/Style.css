@@ -18,6 +18,7 @@ nav{
     background-color: aqua;
     margin: 50px;
     margin-left: 227px;
+    align-content: center;
 }
 
 #logo{
@@ -62,5 +63,116 @@ select{
 }
 
 #incart{
+    color: white;
+}
+
+
+#highlight{
+    width: 100%;
+    height: 40vh;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#larrow{
+    width: 10%;
+    height: 10%;
+    background-color: white;
+}
+
+#rarrow{
+    width: 10%;
+    height: 10%;
+    background-color: white;
+}
+
+
+#mainpic{
+    margin-top: 5px auto;
+    width: 70%;
+    height: 90%;
+    background-color: yellow;
+    margin-top: 40px;
+}
+
+
+#scroll{
+    width: 50%;
+    height: 5vh;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sales{
+    width: 100%;
+    height: 30vh;
+    background-color: green;
+}
+
+.pagerect{
+    margin: 5px auto;
+    width: 22%;
+    height: 10%;
+}
+.gray{
+    background-color: gray;
+}
+
+.purple{
+    background-color: purple;
+}
+
+#sales{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gamebox{
+    width: 27%;
+    height: 95%;
+    background-color: red;
+}
+
+.game{
+    width: 100%;
+    height: 40%;
+    background-color: white;
+}
+.platforms{
+    width: 100%;
+    height: 20%;
+    background-color: burlywood;
+}
+#gamedetails{
+    width: 100%;
+    height: 30%;
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.discount{
+    background-color: blueviolet;
+    height: 60%;
+    width: 30%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.strike{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.buybutton{
+    background-color: green;
+    height: 60%;
+    width: 30%;
     color: white;
 }
